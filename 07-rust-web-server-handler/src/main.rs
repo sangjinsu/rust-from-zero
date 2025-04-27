@@ -1,6 +1,6 @@
 mod handlers;
 
-use actix_web::{App, HttpServer, web};
+use actix_web::{App, HttpServer};
 
 use handlers::{
     greet_handler::greet, hello_handler::hello, query_handler::query_info,
